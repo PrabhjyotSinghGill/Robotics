@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/static/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Promark Electronics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="static/index.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="header">
+      <img class="promark__image" src="{{url_for('static', filename='/assets/promark-logo.svg')}}"></img>
+    </div>
+    <div class="middle">
+      <h4>Select The Production Mode</h4>
+      <div class="selectMode">
+        <button type="button" class="btn btn-primary btn">Manual Cycle</button>
+        <button type="button" class="btn btn-primary btn">Auto Full Cycle</button>
+      </div>
+    </div> 
+  </body>
+</html>
