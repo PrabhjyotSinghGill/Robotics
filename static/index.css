@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   --header-color: blanchedalmond;
-  --border-color: #654321;
+  --border-color: #40826d;
+  --border-color1: #654321;
   --body-color: blanchedalmond;
 }
 body {
@@ -16,17 +17,10 @@ body {
 }
 
 /* HEADER */
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  background-color: var(--header-color);
-  width: 100%;
+nav {
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
-
 .promark__image {
   height: 5vh;
   padding: 0.2%;
@@ -52,4 +46,44 @@ body {
 }
 button {
   display: flex !important;
+}
+
+.middleContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partsToProduce {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 1%;
+  padding: 1%;
+  align-items: center;
+  background-color: bisque;
+}
+#noOfParts {
+  max-width: 50% !important;
+}
+
+.operation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 1%;
+  align-items: flex-start;
+}
+
+#startManualOperation {
+  margin-top: 5%;
+}
+
+fieldset {
+  margin-top: 3%;
+  background-color: bisque;
+  width: 100%;
+  padding: 1%;
 }
