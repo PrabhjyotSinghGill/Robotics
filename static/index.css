@@ -58,13 +58,21 @@ button {
 
 .partsToProduce {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 50%;
   margin-top: 1%;
   padding: 1%;
-  align-items: center;
   background-color: bisque;
 }
+
+.inpartsToProduce {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 #noOfParts {
   max-width: 50% !important;
 }
@@ -86,4 +94,14 @@ fieldset {
   background-color: bisque;
   width: 100%;
   padding: 1%;
+}
+
+.runningState {
+  display: flex;
+  width: 50%;
+  background-color: bisque;
+  margin-top: 1%;
+  padding: 1%;
+  justify-content: space-around;
+  align-items: flex-start;
 }
