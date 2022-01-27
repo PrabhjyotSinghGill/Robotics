@@ -4,7 +4,7 @@
   --header-color: blanchedalmond;
   --border-color: #40826d;
   --border-color1: #654321;
-  --body-color: blanchedalmond;
+  --body-color: white;
 }
 body {
   display: flex;
@@ -104,4 +104,10 @@ fieldset {
   padding: 1%;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem !important;
+  font-size: 2.25rem !important;
+  border-radius: 0.5rem !important;
 }
